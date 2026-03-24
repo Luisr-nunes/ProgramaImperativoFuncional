@@ -1,0 +1,15 @@
+*.exe
+*dSYM
+*.o
+*.so
+*.dylib
+*.bin
+
+bin/
+obj/
+build/
+
+.DS-store
+src/exercicios_propostos/ascencio_p190_q1a
+src/exercicios_propostos/ascencio_p190_q2a
+src/exercicios_propostos/ascencio_p249_q1a
