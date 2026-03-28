@@ -1,10 +1,4 @@
-# Programação Imperativa e Funcional - 2026.1
-
-Repositório de exercícios e exemplos da disciplina **Programação Imperativa e Funcional (PIF)**, semestre 2026.1.
-
-**Autor:** Renan Costa Alencar
-
-## Estrutura do Projeto
+# Repositório de exercícios e exemplos da disciplina **Programação Imperativa e Funcional (PIF)**, semestre 2026.1.
 
 ```
 src/
