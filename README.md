@@ -1,64 +1,81 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/💻_Análise_e_Desenvolvimento_de_Sistemas-Cesar_School-0052CC?style=for-the-badge&logoColor=white" alt="Curso"/>
+# 💻 Programação Imperativa e Funcional
 
-# 🧩 Programa Imperativo e Funcional
-
-### Estudo Prático de Paradigmas de Programação
+### Exercícios e listas práticas da disciplina de PIF
 
 <br>
 
-![Status](https://img.shields.io/badge/Status-Concluído-2E8B57?style=flat-square)
-![Disciplina](https://img.shields.io/badge/Tema-Paradigmas_de_Programação-8B6914?style=flat-square)
-![Instituição](https://img.shields.io/badge/Instituição-Cesar_School-A0522D?style=flat-square)
-![Formato](https://img.shields.io/badge/Tecnologias-Código_Fonte-4A4A4A?style=flat-square)
+![Linguagem](https://img.shields.io/badge/Linguagem-C-00599C?style=flat-square&logo=c&logoColor=white)
+![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-6A0DAD?style=flat-square)
+![Curso](https://img.shields.io/badge/Curso-ADS-8A2BE2?style=flat-square)
+![Tipo](https://img.shields.io/badge/Tipo-Exercícios_Acadêmicos-4A4A4A?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Em_andamento-FFB300?style=flat-square)
 
 <br>
 
-> *Repositório dedicado ao estudo e implementação de algoritmos,*
-> *demonstrando as diferenças entre os paradigmas Imperativo e Funcional.*
+> *Repositório de exercícios desenvolvidos durante a disciplina de **Programação Imperativa e Funcional (PIF)**,*
+> *curso de Análise e Desenvolvimento de Sistemas — CESAR School.*
 
 </div>
 
 ---
 
-## 📋 Sobre este Repositório
+## Sobre o Repositório
 
-Este repositório reúne códigos e exercícios práticos desenvolvidos para demonstrar as abordagens de resolução de problemas utilizando os paradigmas de programação **Imperativa** (focada em como o programa deve alterar seu estado) e **Funcional** (focada na avaliação de funções matemáticas e imutabilidade).
-
----
-
-## 📁 Estrutura de Arquivos
-
-| Diretório/Arquivo | Tipo | Descrição |
-|---|---|---|
-| `/imperativo` | 📁 Pasta | Códigos baseados em controle de estado e loops |
-| `/funcional` | 📁 Pasta | Códigos focados em imutabilidade e funções puras |
-| `[Nome_do_arquivo]` | 📄 Script | [Descrição do script] |
+Este repositório funciona como um banco de dados pessoal de exercícios resolvidos ao longo da disciplina de **PIF**, cobrindo os principais conceitos de programação em linguagem **C**: estruturas de controle, funções, ponteiros, alocação de memória, recursão e paradigma funcional.
 
 ---
 
-## 🎯 Objetivo do Estudo
+## Estrutura
 
-Compreender na prática como diferentes paradigmas afetam a arquitetura, a legibilidade e a manutenção do software, aplicando os conceitos fundamentais exigidos na formação de um Desenvolvedor Full-Stack.
-
----
-
-## 📌 Como Utilizar
-
-1. Faça o clone deste repositório na sua máquina local.
-2. Navegue até o diretório correspondente ao paradigma que deseja testar.
-3. Execute os scripts utilizando [Node.js / Python / etc.].
+| Pasta | Descrição |
+|---|---|
+| `AULA_03_03/` | Exercícios desenvolvidos em aula (03/03) |
+| `exercicios/` | Exercícios avulsos e práticas diversas |
+| `listaDeExercicios1/` | Lista de exercícios 1 |
+| `listaDeExercicio2/` | Lista de exercícios 2 |
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## Conteúdos Abordados
+
+- Tipos primitivos, variáveis e operadores em C
+- Estruturas de controle: `if`, `else`, `switch`, `while`, `for`
+- Funções e escopo de variáveis
+- Vetores, matrizes e strings
+- Ponteiros e aritmética de ponteiros
+- Alocação dinâmica de memória (`malloc`, `free`)
+- Recursão
+- Introdução ao paradigma funcional
+
+---
+
+## Como Compilar e Executar
+
+Qualquer arquivo `.c` pode ser compilado com o **GCC**:
+
+```bash
+# Compilar
+gcc nome_do_arquivo.c -o programa
+
+# Executar (Linux/macOS)
+./programa
+
+# Executar (Windows)
+programa.exe
+```
+
+> Alternativamente, use uma IDE como **VS Code** com a extensão C/C++, **Code::Blocks** ou **CLion**.
+
+---
+
+## Autor
 
 <div align="center">
 
 **Luis Nunes**
-Desenvolvedor Full-Stack · Análise e Desenvolvimento de Sistemas
-Cesar School
+Estudante de ADS — CESAR School
 
 [![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
 
@@ -68,6 +85,6 @@ Cesar School
 
 <div align="center">
 
-*📚 Material de estudo e desenvolvimento acadêmico*
+*📚 Material de uso acadêmico — CESAR School*
 
 </div>
