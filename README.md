@@ -1,90 +1,50 @@
-<div align="center">
+# Programação Imperativa e Funcional
 
-# 💻 Programação Imperativa e Funcional
+<!-- badges -->
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![GCC](https://img.shields.io/badge/GCC-A42E2B?style=flat-square&logo=gnu&logoColor=white)
 
-### Exercícios e listas práticas da disciplina de PIF
+[Read in English](README.en.md)
 
-<br>
+Exercícios em C da disciplina de Programação Imperativa e Funcional (PIF), semestre 2026.1, incluindo aulas, listas avaliativas, questões do livro-texto e cursos complementares de C.
 
-![Linguagem](https://img.shields.io/badge/Linguagem-C-00599C?style=flat-square&logo=c&logoColor=white)
-![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-6A0DAD?style=flat-square)
-![Curso](https://img.shields.io/badge/Curso-ADS-8A2BE2?style=flat-square)
-![Tipo](https://img.shields.io/badge/Tipo-Exercícios_Acadêmicos-4A4A4A?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Em_andamento-FFB300?style=flat-square)
+## Conteúdo
 
-<br>
+| Pasta | Conteúdo |
+| --- | --- |
+| `CLASS/AULA_03_03` | Primeiros exercícios em aula e `switch/case` |
+| `CLASS/AULA_05_05` | Calculadora e simulação de semáforo |
+| `CLASS/AULA_12_05` | Seis exercícios práticos da aula |
+| `HOMEWORK/listaDeExercicios1`, `listaDeExercicio2`, `listaDeExercicio3` | Listas de exercícios avaliativas |
+| `exercicios/` | Questões do livro de Ascencio (*Fundamentos da Programação de Computadores*), identificadas por página e número, como `ascencio_p150_q24.c` |
+| `COURSES/2026.1.BP2.C_ESSENTIALS1` | Curso C Essentials 1, módulos 1 a 5: operadores, fluxo de controle, entrada e saída, conversões, laços, vetores, bubble sort, ponteiros, strings, matrizes e memória dinâmica |
+| `COURSES/2026.1AP.C_FUNDAMENTALS1` | Curso C Fundamentals 1 |
 
-> *Repositório de exercícios desenvolvidos durante a disciplina de **Programação Imperativa e Funcional (PIF)**,*
-> *curso de Análise e Desenvolvimento de Sistemas — CESAR School.*
+## Conteúdos praticados
 
-</div>
-
----
-
-## Sobre o Repositório
-
-Este repositório funciona como um banco de dados pessoal de exercícios resolvidos ao longo da disciplina de **PIF**, cobrindo os principais conceitos de programação em linguagem **C**: estruturas de controle, funções, ponteiros, alocação de memória, recursão e paradigma funcional.
-
----
-
-## Estrutura
-
-| Pasta | Descrição |
-|---|---|
-| `AULA_03_03/` | Exercícios desenvolvidos em aula (03/03) |
-| `exercicios/` | Exercícios avulsos e práticas diversas |
-| `listaDeExercicios1/` | Lista de exercícios 1 |
-| `listaDeExercicio2/` | Lista de exercícios 2 |
-
----
-
-## Conteúdos Abordados
-
-- Tipos primitivos, variáveis e operadores em C
-- Estruturas de controle: `if`, `else`, `switch`, `while`, `for`
-- Funções e escopo de variáveis
+- Tipos, variáveis e operadores
+- Decisão (`if`, `switch`) e repetição (`for`, `while`, `do-while`)
+- Funções, parâmetros e escopo
 - Vetores, matrizes e strings
-- Ponteiros e aritmética de ponteiros
-- Alocação dinâmica de memória (`malloc`, `free`)
-- Recursão
-- Introdução ao paradigma funcional
+- Ponteiros e a relação entre ponteiros e vetores
+- Alocação dinâmica (`malloc`, `free`)
+- Ordenação com bubble sort
 
----
+## Como executar
 
-## Como Compilar e Executar
-
-Qualquer arquivo `.c` pode ser compilado com o **GCC**:
+Pré-requisito: GCC (no Windows, MinGW ou WSL).
 
 ```bash
-# Compilar
-gcc nome_do_arquivo.c -o programa
+git clone https://github.com/Luisr-nunes/ProgramaImperativoFuncional.git
+cd ProgramaImperativoFuncional
 
-# Executar (Linux/macOS)
-./programa
-
-# Executar (Windows)
-programa.exe
+gcc -Wall CLASS/AULA_05_05/calculadora.c -o calculadora
+./calculadora
 ```
 
-> Alternativamente, use uma IDE como **VS Code** com a extensão C/C++, **Code::Blocks** ou **CLion**.
-
----
+Os arquivos `.exe`, `.obj`, `.pdb` e `.ilk` presentes em algumas pastas são binários gerados no Windows e não são necessários para compilar.
 
 ## Autor
 
-<div align="center">
+Luís Nunes — [GitHub](https://github.com/Luisr-nunes) · [LinkedIn](https://www.linkedin.com/in/luis-nunes-dev/)
 
-**Luis Nunes**
-Estudante de ADS — CESAR School
-
-[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
-
-</div>
-
----
-
-<div align="center">
-
-*📚 Material de uso acadêmico — CESAR School*
-
-</div>
+Projeto acadêmico do curso de Análise e Desenvolvimento de Sistemas da Cesar School.
